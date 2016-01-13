@@ -17,6 +17,7 @@ obj =
         typographic()
       ]
     .pipe plugin.postcss, [lost()]
+    .pipe plugin.csso
   dest : './build/styles/'
   watchDir : './styles/**/*'
 
