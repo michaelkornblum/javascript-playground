@@ -4,7 +4,8 @@ block title
   title This is a test
   
 block content
-  div(ng-controller="MainCtrl")
-    h1 Ullo! This is a test of the emergency website system.
-    p Had this been an actual emergency ... feel free to panic
-    h1 {{message}}
+  .panel(ng-controller="DayCtrl")
+    .page-header
+      h1 AngularJS app
+    h2 Today is {{day || "(unknown)" | dayName}}
+    h2(ng-controller="TomorrowCtrl" highlight="Saturday") Tomorrow is {{day || "(unknown)" | dayName}}

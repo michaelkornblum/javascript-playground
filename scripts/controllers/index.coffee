@@ -1,2 +1,3 @@
-app = require('angular').module('myApp')
-app.controller 'MainCtrl', ['$scope', require './main.coffee']
+app = require('angular').module('exampleApp')
+  .controller 'DayCtrl', ['$scope', 'days', require './day.coffee']
+  .controller 'TomorrowCtrl', ['$scope', 'days', require './tomorrow.coffee']
