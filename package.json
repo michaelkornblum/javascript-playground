@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/michaelkornblum/javascript-playground#readme",
   "dependencies": {
+    "angular": "^1.4.8",
+    "angular-route": "^1.4.8",
     "browser-sync": "^2.11.0",
     "browserify": "^13.0.0",
     "coffee-script": "^1.10.0",
