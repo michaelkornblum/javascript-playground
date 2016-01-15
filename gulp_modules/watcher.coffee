@@ -5,4 +5,5 @@ gulp.task 'watcher', [
   'watch:scripts',
   'watch:styles',
   'watch:templates'
+  'watch:lib'
 ]
